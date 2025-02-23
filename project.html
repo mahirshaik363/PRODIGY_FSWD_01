@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>TASK 1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body align="center">
+        <form onsubmit="return validateform() ">
+            <fieldset id="personal details" >
+                <legend align="center">PERSONAL DETAILS</legend>
+
+                <label  class="per_label" for="name">NAME:</label>
+                <input type="text" name="name" id="name"><br><br>
+
+                <label class="per_label" for="name">AGE: </label>
+                <input type="number" name="age" id="age"><br><br>
+
+                <label class="per_label" for="name">PHONE:</label>
+                <input type="tel" name="mobile" id="mobile"><br><br>
+
+                <label class="per_label" for="name">EMAIL ID:</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label class="per_label" for="gender" >GENDER:</label>
+                <input type="radio" name="gender" id="gender" >
+                <label class="per_label" for="male">MALE</label>
+                <input type="radio" name="male" id="male">
+                <label class="per_label" for="female" >FEMALE</label>
+                <input type="radio" name="female" id="female">
+                <label class="per_label" for="other">OTHER</label>
+            </fieldset>
+            <br><br>
+            <input type="submit" class="btn">
+    </form>
+    <script js src="validation.js"></script>
+    </body>
+</html>
