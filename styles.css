@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(252, 252, 252, 0.57);
+    background-image: url(pexels-karolina-grabowska-4194853.jpg);
+}
+
+.per_label{
+    color: rgb(0, 0, 0);
+    
+}
+fieldset{
+    background-color: rgba(190, 152, 226, 0.899);
+    border: 2px solid rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+}
+
+legend{
+    color: rgb(136, 0, 255);
+    border: 2px solid rgb(255, 255, 255);
+   
+    
+}
+
+input[type=text],input[type=number],input[type=tel],input[type=email]{
+    height: 30px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+
+input[type=submit]{
+   background-color:rgba(190, 152, 226, 0.907);
+   height: 30px;
+   width: 100px;
+   border: solid white;
+   color: beige;
+   
+}
+.btn:hover{
+    color: rgb(137, 50, 219);
+    border: 2px solid rgb(0, 0, 0);
+}
